@@ -1,0 +1,60 @@
+{
+  "ground": {
+    "profile": "ground",
+    "trees": 60,
+    "max_depth": 12,
+    "n_features": 10,
+    "features": [
+      "vv",
+      "vh",
+      "diff",
+      "vv_mean5",
+      "vh_mean5",
+      "vv_std5",
+      "vv_mean21",
+      "vh_mean21",
+      "vv_std21",
+      "vh_std21"
+    ],
+    "input_downsample": 1,
+    "input_bits": 32,
+    "model_size_bytes": 21258365,
+    "trained_on_chips": 300,
+    "training_pixels": 793077,
+    "version": "sanjay-core-0.1",
+    "conformal": {
+      "q": 0.163330078125,
+      "cells": 4273,
+      "level": 0.9,
+      "cell_px": 64
+    },
+    "sklearn_version": "1.9.1",
+    "file_bytes": 7895515
+  },
+  "onboard": {
+    "profile": "onboard",
+    "trees": 8,
+    "max_depth": 5,
+    "n_features": 4,
+    "features": [
+      "vv",
+      "vh",
+      "diff",
+      "vv_std9"
+    ],
+    "input_downsample": 2,
+    "input_bits": 8,
+    "model_size_bytes": 44152,
+    "trained_on_chips": 300,
+    "training_pixels": 724681,
+    "version": "sanjay-core-0.1",
+    "conformal": {
+      "q": 0.1533203125,
+      "cells": 4274,
+      "level": 0.9,
+      "cell_px": 64
+    },
+    "sklearn_version": "1.9.1",
+    "file_bytes": 21666
+  }
+}

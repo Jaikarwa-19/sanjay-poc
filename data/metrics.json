@@ -1,0 +1,34 @@
+{
+  "test_event": "Sen1Floods11 India hand-labelled chips (held out from training)",
+  "chips": 68,
+  "profiles": {
+    "ground": {
+      "iou": 0.5325,
+      "precision": 0.7372,
+      "recall": 0.6572,
+      "f1": 0.6949,
+      "interval_coverage": 0.8993,
+      "cells": 3743,
+      "median_runtime_ms": 1074.9,
+      "chip_detection_rate": 0.765,
+      "chip_false_alarm_rate": 0.167,
+      "flood_chips": 51,
+      "dry_chips": 6,
+      "chip_rule": "flood chip = >=2% labelled flood water; dry chip = <0.5%"
+    },
+    "onboard": {
+      "iou": 0.502,
+      "precision": 0.8474,
+      "recall": 0.5519,
+      "f1": 0.6685,
+      "interval_coverage": 0.8542,
+      "cells": 3751,
+      "median_runtime_ms": 38.5,
+      "chip_detection_rate": 0.51,
+      "chip_false_alarm_rate": 0.0,
+      "flood_chips": 51,
+      "dry_chips": 6,
+      "chip_rule": "flood chip = >=2% labelled flood water; dry chip = <0.5%"
+    }
+  }
+}

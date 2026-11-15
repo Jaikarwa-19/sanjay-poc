@@ -1,0 +1,54 @@
+{
+  "source": "Sen1Floods11 v1.1 hand-labelled (Bonafilia et al., CVPRW 2020), CC BY 4.0",
+  "cell_px": 64,
+  "scenes": {
+    "flood_severe": {
+      "chip": "India_1018317",
+      "roughness_db": 6.6307,
+      "water_frac": 0.7651,
+      "flood_frac": 0.5255,
+      "perm_frac": 0.1819,
+      "nodata_frac": 0.0
+    },
+    "flood_moderate": {
+      "chip": "India_383430",
+      "roughness_db": 1.9416,
+      "water_frac": 0.1561,
+      "flood_frac": 0.1521,
+      "perm_frac": 0.0048,
+      "nodata_frac": 0.0
+    },
+    "dry_flat": {
+      "chip": "India_631692",
+      "roughness_db": 0.7571,
+      "water_frac": 0.0031,
+      "flood_frac": 0.0031,
+      "perm_frac": 0.0,
+      "nodata_frac": 0.0
+    },
+    "partial_nodata": {
+      "chip": "India_979278",
+      "roughness_db": 1.3582,
+      "water_frac": 0.0498,
+      "flood_frac": 0.0328,
+      "perm_frac": 0.0232,
+      "nodata_frac": 0.5268
+    },
+    "permanent_water_only": {
+      "chip": "Spain_7604243",
+      "roughness_db": 4.3016,
+      "water_frac": 0.0798,
+      "flood_frac": 0.0075,
+      "perm_frac": 0.0725,
+      "nodata_frac": 0.0
+    },
+    "dry_hilly": {
+      "chip": "India_244057",
+      "roughness_db": 3.0398,
+      "water_frac": 0.0,
+      "flood_frac": 0.0,
+      "perm_frac": 0.0,
+      "nodata_frac": 0.0
+    }
+  }
+}
