@@ -50,5 +50,128 @@
       "perm_frac": 0.0,
       "nodata_frac": 0.0
     }
-  }
+  },
+  "captures": [
+    {
+      "capture_id": "S1-IND-20160812-383430",
+      "scene_id": "India_383430",
+      "sequence": 1,
+      "acquired": "2016-08-12",
+      "sensor": "Sentinel-1 C-band SAR, IW, VV+VH",
+      "orbit": "DESCENDING",
+      "relative_orbit": 77,
+      "country": "India",
+      "centroid": [
+        93.5283,
+        26.6534
+      ],
+      "footprint_km": [
+        4.6,
+        5.1
+      ],
+      "has_hand_labels": true,
+      "source": "Sen1Floods11 v1.1 (Bonafilia et al., CVPRW 2020), CC BY 4.0"
+    },
+    {
+      "capture_id": "S1-IND-20160812-631692",
+      "scene_id": "India_631692",
+      "sequence": 2,
+      "acquired": "2016-08-12",
+      "sensor": "Sentinel-1 C-band SAR, IW, VV+VH",
+      "orbit": "DESCENDING",
+      "relative_orbit": 77,
+      "country": "India",
+      "centroid": [
+        93.2983,
+        25.9635
+      ],
+      "footprint_km": [
+        4.6,
+        5.1
+      ],
+      "has_hand_labels": true,
+      "source": "Sen1Floods11 v1.1 (Bonafilia et al., CVPRW 2020), CC BY 4.0"
+    },
+    {
+      "capture_id": "S1-IND-20160812-1018317",
+      "scene_id": "India_1018317",
+      "sequence": 3,
+      "acquired": "2016-08-12",
+      "sensor": "Sentinel-1 C-band SAR, IW, VV+VH",
+      "orbit": "DESCENDING",
+      "relative_orbit": 77,
+      "country": "India",
+      "centroid": [
+        92.7924,
+        26.5614
+      ],
+      "footprint_km": [
+        4.6,
+        5.1
+      ],
+      "has_hand_labels": true,
+      "source": "Sen1Floods11 v1.1 (Bonafilia et al., CVPRW 2020), CC BY 4.0"
+    },
+    {
+      "capture_id": "S1-IND-20160812-244057",
+      "scene_id": "India_244057",
+      "sequence": 4,
+      "acquired": "2016-08-12",
+      "sensor": "Sentinel-1 C-band SAR, IW, VV+VH",
+      "orbit": "DESCENDING",
+      "relative_orbit": 77,
+      "country": "India",
+      "centroid": [
+        93.4823,
+        27.2973
+      ],
+      "footprint_km": [
+        4.5,
+        5.1
+      ],
+      "has_hand_labels": true,
+      "source": "Sen1Floods11 v1.1 (Bonafilia et al., CVPRW 2020), CC BY 4.0"
+    },
+    {
+      "capture_id": "S1-IND-20160812-979278",
+      "scene_id": "India_979278",
+      "sequence": 5,
+      "acquired": "2016-08-12",
+      "sensor": "Sentinel-1 C-band SAR, IW, VV+VH",
+      "orbit": "DESCENDING",
+      "relative_orbit": 77,
+      "country": "India",
+      "centroid": [
+        92.4244,
+        26.1934
+      ],
+      "footprint_km": [
+        4.6,
+        5.1
+      ],
+      "has_hand_labels": true,
+      "source": "Sen1Floods11 v1.1 (Bonafilia et al., CVPRW 2020), CC BY 4.0"
+    },
+    {
+      "capture_id": "S1-ESP-20190917-7604243",
+      "scene_id": "Spain_7604243",
+      "sequence": 6,
+      "acquired": "2019-09-17",
+      "sensor": "Sentinel-1 C-band SAR, IW, VV+VH",
+      "orbit": "DESCENDING",
+      "relative_orbit": 110,
+      "country": "Spain",
+      "centroid": [
+        -0.7129,
+        38.0598
+      ],
+      "footprint_km": [
+        4.0,
+        5.1
+      ],
+      "has_hand_labels": true,
+      "source": "Sen1Floods11 v1.1 (Bonafilia et al., CVPRW 2020), CC BY 4.0"
+    }
+  ],
+  "captures_note": "Neutral capture feed for the UI. Never show 'scenes' role names in the UI; they exist for tests only."
 }
