@@ -29,9 +29,9 @@ from sklearn.ensemble import RandomForestClassifier
 
 VERSION = "sanjay-core-0.1"
 SEVERITY_LEVELS = ("none", "low", "moderate", "severe")
-SEVERITY_COLOURS = {  # light grey -> steel blue -> amber -> red; no-data = white
-    "no_data": "#FFFFFF", "none": "#E8EBEF", "low": "#315B78",
-    "moderate": "#B7791F", "severe": "#B42318",
+SEVERITY_COLOURS = {  # matches the deck and the government alert scale: yellow -> orange -> red
+    "no_data": "#FFFFFF", "none": "#E8EBEF", "low": "#E9B824",
+    "moderate": "#E8791A", "severe": "#DC4C2B",
 }
 DB_MIN, DB_MAX = -30.0, 5.0  # clip range for 8-bit quantisation
 
