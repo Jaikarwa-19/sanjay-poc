@@ -1,5 +1,26 @@
 # Sanjay: onboard flood triage (proof of concept)
 
+**Live demo:** https://staging-build-261.emergent.host
+
+Sanjay is a satellite that sends the warning before the picture. It reads a Sentinel-1 radar image on board, grades flood severity cell by cell with a calibrated 90% interval, and sends a 3 KB alert, image crops of the worst cells and a follow-up request ahead of the 2 MB raw image.
+
+**Results on 68 real Indian flood images (Assam, Aug 2016) that neither model saw in training:**
+
+| | Onboard model (flies) | Ground model (reference) |
+|---|---|---|
+| Size | 43 KB | 20 MB |
+| Time per image (1 CPU thread) | 38.5 ms | 1.07 s |
+| Overlap with expert flood maps (IoU) | 0.50 | 0.53 |
+| False alarms on dry images | 0 of 6 | 1 of 6 |
+
+Real: the radar images (Sen1Floods11, CC BY 4.0) and the model results. Simulated: the satellites, the downlink rate and timing. Known limit: hill shadow can look like water without a terrain mask.
+
+`judge-samples/` has three real images you can upload to the live demo.
+
+---
+
+## Repository guide
+
 Sanjay is a satellite that sends the warning before the picture. It reads a Sentinel-1 radar scene and grades flood severity on a colour scale, with a 90% interval for each grid cell. It then sends a few-KB alert, image crops of the worst cells and a follow-up request ahead of the raw scene. A reduced **onboard** model is compared with a full **ground** model.
 
 | Folder | What it is |
